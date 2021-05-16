@@ -27,4 +27,18 @@
         android:layout_margin="16dp"
         android:text="@string/sample"/>
 
+    <TextView
+        android:id="@+id/txt_sample04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/sample"/>
+
+    <TextView
+        android:id="@+id/txt_sample05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/sample"/>
+
 </LinearLayout>
