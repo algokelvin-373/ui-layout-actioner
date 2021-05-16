@@ -2,7 +2,6 @@ package com.algokelvin.android.app_implement
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.algokelvin.android.app_implement.R
 import ui.algokelvin.uiview.ConstVal
 import kotlinx.android.synthetic.main.activity_main.*
 
