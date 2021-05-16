@@ -1,2 +1,4 @@
 rootProject.name = "LayoutUI"
 include ':app'
+include ':uiview'
+include ':app-implement'
