@@ -13,9 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        setUI()
-    }
-    private fun setUI() {
         txt_sample.setTextStylish(this, 20f, R.color.purple_500, Gravity.CENTER, Typeface.DEFAULT_BOLD)
         txt_sample02.setTextStylish(this, null, R.color.purple_500, Gravity.CENTER, Typeface.DEFAULT_BOLD)
         txt_sample03.setTextStylish(this, 18f, R.color.purple_500, null, null)
