@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">app-implement</string>
     <string name="sample">UI Layout by Algo Kelvin</string>
+    <string name="sample_border_button">UI Button by Algokelvin</string>
 </resources>
