@@ -1,4 +1,4 @@
-package ui.algokelvin.uiview
+package ui.algokelvin.uiview.textview
 
 import android.content.Context
 import android.graphics.Typeface
@@ -6,7 +6,7 @@ import android.text.Html
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 
-object ConstMethod {
+object TextViewMethod {
     // Set Attribute TextView: Size, Color, Alignment, and Style
     fun TextView.setTextStylish(context: Context, size: Float? = null, color: Int? = null, gravity: Int? = null, style: Typeface? = null) {
         if (size != null) {

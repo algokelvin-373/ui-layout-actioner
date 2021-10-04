@@ -5,8 +5,8 @@ import android.os.Bundle
 import android.view.Gravity
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import ui.algokelvin.uiview.ConstMethod.setColorCustom
-import ui.algokelvin.uiview.ConstMethod.setTextStylish
+import ui.algokelvin.uiview.textview.TextViewMethod.setColorCustom
+import ui.algokelvin.uiview.textview.TextViewMethod.setTextStylish
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
