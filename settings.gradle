@@ -1,2 +1,3 @@
 rootProject.name = "LayoutUI"
-include ':uiview'
+include ':uiview', ':app-implement'
+include ':demouilayout-101'
