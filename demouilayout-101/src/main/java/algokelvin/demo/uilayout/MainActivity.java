@@ -26,5 +26,9 @@ public class MainActivity extends AppCompatActivity {
                 Typeface.DEFAULT_BOLD // Style Text
         );
 
+        String[] colorArray = {"#800000", "#000080"};
+        String[] txtArray = {"Algo", "Kelvin"};
+        textViewStylish.setColorCustom(binding.txtSample02, txtArray, colorArray);
+
     }
 }
