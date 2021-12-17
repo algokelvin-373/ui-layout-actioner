@@ -24,10 +24,11 @@ object TextViewMethod {
     // Single TextView with Two Colors Different
     fun TextView.setColorCustom(textVw: Array<String>, colorTxt: Array<String>) {
         var txt = ""
-        for(x in 0..textVw.size-1)
+        for(x in textVw.indices)
             txt += getColorTextSpanned(textVw[x], colorTxt[x])
         this.text = Html.fromHtml(txt)
     }
+
     private fun getColorTextSpanned(text: String, color: String): String {
         return "<font color=$color>$text</font>"
     }
