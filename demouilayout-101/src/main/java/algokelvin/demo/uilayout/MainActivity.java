@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
         textViewStylish.setColorCustom(binding.txtSample02, txtArray, colorArray);
 
         TextViewBorder txtBorder = new TextViewBorder(this,
-                R.color.white,
-                R.color.black,
-                1,
-                8f
+                R.color.white, // Background color
+                R.color.black, // Color Stroke
+                1, // Size Stroke
+                getSizeDp(getResources(), 8) // Size Radius
         );
 
     }
