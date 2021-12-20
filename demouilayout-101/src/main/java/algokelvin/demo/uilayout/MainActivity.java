@@ -7,6 +7,7 @@ import android.view.Gravity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import algokelvin.demo.uilayout.databinding.ActivityMainBinding;
+import ui.algokelvin.uiview.textview.TextViewBorder;
 import ui.algokelvin.uiview.textview.TextViewStylish;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        // Text Stylish - Size, Color, Alignment, and Style
         textViewStylish.setTextStylish(
                 binding.txtSample, // id binding TextView
                 20f, // size Text
@@ -26,9 +28,17 @@ public class MainActivity extends AppCompatActivity {
                 Typeface.DEFAULT_BOLD // Style Text
         );
 
+        // Text Color Mix
         String[] colorArray = {"#800000", "#000080"};
         String[] txtArray = {"Algo", "Kelvin"};
         textViewStylish.setColorCustom(binding.txtSample02, txtArray, colorArray);
+
+        TextViewBorder txtBorder = new TextViewBorder(this,
+                R.color.white,
+                R.color.black,
+                1,
+                8f
+        );
 
     }
 }
