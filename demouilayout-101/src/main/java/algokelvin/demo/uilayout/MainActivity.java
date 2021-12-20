@@ -10,6 +10,8 @@ import algokelvin.demo.uilayout.databinding.ActivityMainBinding;
 import ui.algokelvin.uiview.textview.TextViewBorder;
 import ui.algokelvin.uiview.textview.TextViewStylish;
 
+import static ui.algokelvin.uiview.ConstFunction.getSizeDp;
+
 public class MainActivity extends AppCompatActivity {
     private final TextViewStylish textViewStylish = new TextViewStylish(this);
 
@@ -34,10 +36,10 @@ public class MainActivity extends AppCompatActivity {
         textViewStylish.setColorCustom(binding.txtSample02, txtArray, colorArray);
 
         TextViewBorder txtBorder = new TextViewBorder(this,
-                R.color.white,
-                R.color.black,
-                1,
-                8f
+                R.color.white, // Background color
+                R.color.black, // Color Stroke
+                1, // Size Stroke
+                getSizeDp(getResources(), 8) // Size Radius
         );
 
     }
