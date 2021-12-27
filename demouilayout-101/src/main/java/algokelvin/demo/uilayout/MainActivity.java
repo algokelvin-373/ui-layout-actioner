@@ -9,8 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import algokelvin.demo.uilayout.databinding.ActivityMainBinding;
 import ui.algokelvin.uiview.textview.TextViewStylish;
 
-import static ui.algokelvin.uiview.ConstFunction.getSizeDp;
-
 public class MainActivity extends AppCompatActivity {
     private final TextViewStylish textViewStylish = new TextViewStylish(this);
 
