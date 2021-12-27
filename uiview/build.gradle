@@ -38,3 +38,16 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.3.0'
 }
+
+task clearJar(type: Delete) {
+    delete 'release/algokelvin-ui-layout-actioner.jar'
+}
+
+task makeJar(type: Copy) {
+    from('build/intermediates/aar_main_jar/release/')
+    into('release/')
+    include('classes.jar')
+    rename('classes.jar', 'algokelvin-ui-layout-actioner.jar')
+}
+
+makeJar.dependsOn(clearJar, build)
