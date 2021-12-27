@@ -7,7 +7,6 @@ import android.view.Gravity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import algokelvin.demo.uilayout.databinding.ActivityMainBinding;
-import ui.algokelvin.uiview.textview.TextViewBorder;
 import ui.algokelvin.uiview.textview.TextViewStylish;
 
 import static ui.algokelvin.uiview.ConstFunction.getSizeDp;
@@ -35,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
         String[] txtArray = {"Algo", "Kelvin"};
         textViewStylish.setColorCustom(binding.txtSample02, txtArray, colorArray);
 
-        TextViewBorder txtBorder = new TextViewBorder(this,
+        /*TextViewBorder txtBorder = new TextViewBorder(this,
                 R.color.white, // Background color
                 R.color.black, // Color Stroke
                 1, // Size Stroke
                 getSizeDp(getResources(), 8) // Size Radius
-        );
+        );*/
 
     }
 }
